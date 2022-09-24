@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Squiggles;
+	src: url('Squiggles.ttf') format('truetype');
+}
+/*
+        ITSE 1301 Web Design Tools
+        Final Project
+          
+        Live True Home Page
+        Author: Morinne Kearns
+        Date: 4/30/21  
+      
+        Filename: lt_designs_vagus.css
+*/
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+/* HTML and Body Styles*/
+
+html {
+	background-color: #489FAB;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+	background-color: White;
+	box-shadow: 15px 0px 30px rgb(33,48,77),
+				-15px 0px 30px rgb(33,48,77);
+	max-width: 1024px;
+	margin: 0px auto;
+
+}
+
+header, footer {
+	width: 100%;
+}
+
+/* Header Styles */
+header {
+	box-shadow: 15px 0px 30px rgb(33,48,77),
+				-15px 0px 30px rgb(33,48,77);
+	margin-bottom: 5px;
+
+}
+header > img {
+	display: block;
+	margin: 0px auto;	
+}
+
+/* Body Styles*/
+h1 {
+	font-size: 2.2em;
+	line-height: 2.3em;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 20px 0px;
+}
+h3 {
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 1.4em;
+	padding: 10px;
+}
+iframe {
+	box-shadow: 5px 0px 10px rgb(33,48,77),
+				-5px 0px 10px rgb(33,48,77);
+	border: 2px solid black;
+	margin: 30px auto 50px auto;
+}
+section {
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+	width: 100%;
+	background-color: white;
+	padding: 10px 0px 10px 0px;
+	position: relative;
+}
+p {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	padding: 10px;
+	text-align: center;
+}
+/* Parallax Styles*/
+
+.brain2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url("../images/Brain3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 720px auto;
+	min-height: 1000px;
+	max-height: 1000px;
+	justify-content: center;
+	align-content: space-between;
+}
+.FandT {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url("../images/FandT3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 700px auto;
+	min-height: 1000px;
+	max-height: 1000px;
+	justify-content: center;
+	align-content: space-between;
+}
+.HandL {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("../images/HandL3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 900px auto;
+	min-height: 1000px;
+	max-height: 1000px;
+	justify-content: center;
+	align-content: space-between;
+}
+.SandI{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url("../images/SandI3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 750px auto;
+	min-height: 1000px;
+	max-height: 1000px;
+	justify-content: center;
+	align-content: space-between;
+}
+.transition {
+	min-height: 200px;
+    display: -webkit-flex;
+    display: flex;
+	max-height: 240px;
+	background: radial-gradient(#489FAB, #4E88AE);
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	box-shadow: 5px 0px 10px rgb(33,48,77),
+				-5px 0px 10px rgb(33,48,77);
+}
+
+/* infoBox Styles */
+
+.infoBox {
+	width: 24%;
+	margin: 50px 30px;
+	border: 3px solid #4E88AE;
+	border-radius: 5px;
+	background: radial-gradient(#489FAB 50%, #4E88AE);
+	box-shadow: 5px 0px 10px rgb(33,48,77),
+				-5px 0px 10px rgb(33,48,77);
+	letter-spacing: 0.05em;
+
+
+}
+
+.headerBox {
+	width: 24%;
+	margin: 50px 30px;
+	border: 3px solid #4E88AE;
+	border-radius: 5px;
+	background: radial-gradient(#489FAB 50%, #4E88AE);
+	box-shadow: 5px 0px 10px rgb(33,48,77),
+				-5px 0px 10px rgb(33,48,77);
+
+}
+.headerBox h2 {
+	font-size: 1.7em;
+	color: #f6ed72;
+	line-height: 1.7em;
+}
+div.infoBox ul {
+	list-style-type: circle;
+	text-align: left;
+	padding: 10px 20px;
+}
+
+span.boldInfo {
+	font-family: Squiggles, Georgia, serif;
+	color: #a32523;
+	letter-spacing: 0.15em;
+}
+span.HLinfo {
+	color: #f6ed72;
+}
+/* Flex Layout Styles */
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
